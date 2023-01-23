@@ -87,10 +87,12 @@ body {
 .page-link {
   padding: 0.4rem 0.8rem;
   border: none;
+  border-radius: 2px;
 }
 
 .page-link-active {
   background-color: red;
+  color: white;
 }
 .direction {
   font-weight: bolder;
