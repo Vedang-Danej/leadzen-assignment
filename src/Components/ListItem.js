@@ -53,7 +53,7 @@ const ListItem = ({ itemData }) => {
               </section>
               <section>
                 <div>
-                  <h3 className="title address-title">Address</h3>
+                  <h3 className="title">Address</h3>
                   <p>
                     {itemData.address.suite +
                       ' ' +
