@@ -69,7 +69,7 @@ const ListItem = ({ itemData }) => {
                   <p>{itemData.address.street}</p>
                 </div>
                 <div>
-                  <h3 className="title">Email</h3>
+                  <h3 className="title">City</h3>
                   <p>{itemData.address.city}</p>
                 </div>
                 <div>
