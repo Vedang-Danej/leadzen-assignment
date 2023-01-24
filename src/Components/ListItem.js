@@ -15,13 +15,13 @@ const ListItem = ({ itemData }) => {
           <p className="company-title">{itemData.company.name}</p>
         </div>
         <div>
-          <div className="title">Contact</div> {itemData.name}
+          <p className="title">Contact</p> {itemData.name}
         </div>
         <div>
-          <div className="title">Street</div> {itemData.address.street}
+          <p className="title">Street</p> {itemData.address.street}
         </div>
         <div>
-          <div className="title">City</div> {itemData.address.city}
+          <p className="title">City</p> {itemData.address.city}
         </div>
         <button onClick={clickHandler}>{isActive ? 'Hide Details' : 'View Details'}</button>
       </div>
